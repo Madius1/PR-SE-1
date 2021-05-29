@@ -66,10 +66,6 @@ public class SimpleSudoku extends Sudoku {
 	public void setField(int posX, int posY, int num) {
 		start[posX][posY] = num;
 	}
-	
-	public int getField(int posX, int posY) {
-		return start[posX][posY];
-	}
 
 	public boolean checkVal(int posX, int posY, int num) {
 
